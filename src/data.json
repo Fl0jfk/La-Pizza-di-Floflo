@@ -2,9 +2,9 @@
     "pizzas": [
         {
             "id": 1,
-            "name": "Tartiflette",
+            "name": "Margarita",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -12,27 +12,19 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Olives"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
-                },
-                {
-                    "id":4,
-                    "component": "Reblochon"
-                },
-                {
-                    "id":5,
-                    "component": "Persillade"
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 2,
-            "name": "3 Fromages",
+            "name": "Reine",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -40,19 +32,23 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Jambon"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Champignons"
+                },
+                {
+                    "id":4,
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 3,
-            "name": "Margarita",
+            "name": "3 Fromages",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -60,19 +56,23 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Chèvre"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Bleu"
+                },
+                {
+                    "id":4,
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 4,
-            "name": "3 Fromages",
+            "name": "Bolognaise",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -80,19 +80,23 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Champignons"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":4,
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 5,
-            "name": "3 Fromages",
+            "name": "Orientale",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -100,19 +104,27 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Champignons"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Merguez"
+                },
+                {
+                    "id":4,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":5,
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 6,
-            "name": "3 Fromages",
+            "name": "Thono",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -120,19 +132,32 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Thon"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Oignon"
+                },
+                {
+                    "id":4,
+                    "component": "Tomate fraiche"
+                },
+                {
+                    "id":5,
+                    "component": "Origan"
+                },
+                {
+                    "id":6,
+                    "component": "Filet de crème fraiche"
                 }
+            
             ]
         },
         {
             "id": 7,
-            "name": "3 Fromages",
+            "name": "Western",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -140,19 +165,27 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Viande hachée"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Merguez"
+                },
+                {
+                    "id":4,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":5,
+                    "component": "Origan"
                 }
             ]
         },
         {
             "id": 8,
-            "name": "3 Fromages",
+            "name": "Chef",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
-            "base": "Crème Fraiche",
+            "base": "Tomate",
             "components": [
                 {
                     "id":1,
@@ -160,11 +193,23 @@
                 },
                 {
                     "id":2,
-                    "component": "Pommes de terre"
+                    "component": "Jambon"
                 },
                 {
                     "id":3,
-                    "component": "Jambon Fumé"
+                    "component": "Lardons"
+                },
+                {
+                    "id":4,
+                    "component": "Olives"
+                },
+                {
+                    "id":5,
+                    "component": "Filet de crème fraiche"
+                },
+                {
+                    "id":6,
+                    "component": "Origan"
                 }
             ]
         }

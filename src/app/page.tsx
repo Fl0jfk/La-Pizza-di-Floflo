@@ -50,15 +50,15 @@ export default function Home() {
         <section className='grid grid-cols-6 w-full max-w-[1200px] lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-1 gap-y-[120px] place-content-center place-items-center'>
           {data && data.length > 0 ? (
             data.map((pizza) => (
-              <div key={pizza.id} className='relative rounded-xl bg-gray-700 p-4 flex flex-col items-center w-[180px] h-[300px] self-center'>
-                <h2 className="text-2xl">{pizza.name}</h2>
+              <div key={pizza.id} className={`relative rounded-xl bg-gray-700 p-4 flex flex-col w-[180px] h-[300px] self-center ${pizza.base === "Tomate" ? "border border-red-500" : "border-white"}`}>
+                <h2 className="text-2xl self-center underline">{pizza.name}</h2>
                 <p>{`Base: ${pizza.base}`}</p>
-                <ul className='flex w-full flex-wrap'>
+                <ul className='flex w-full flex-col'>
                   {pizza.components.map((component) => (
                     <li key={component.id}>- {component.component}</li>
                   ))}
                 </ul>
-                <Image src={pizza.image} alt={`Photo de la pizza ${pizza.name}`} width={150} height={150} className='absolute bottom-[-100px]'/>
+                <Image src={pizza.image} alt={`Photo de la pizza ${pizza.name}`} width={150} height={150} className="absolute bottom-[-100px]"/>
               </div>
             ))
           ) : (
