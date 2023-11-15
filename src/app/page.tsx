@@ -12,7 +12,7 @@ interface Pizza {
 }
 
 async function fetchDataFromAPI(): Promise<{ data: { pizzas: Pizza[] } }> {
-  const response = await fetch('http://localhost:3000/api/pizzas', {
+  const response = await fetch('https://la-pizza-di-floflo.vercel.app/api/pizzas', {
     method: 'GET',
   });
   return response.json();
