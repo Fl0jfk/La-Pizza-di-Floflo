@@ -12,7 +12,7 @@ interface Pizza {
 }
 
 async function fetchDataFromAPI(): Promise<{ data: { pizzas: Pizza[] } }> {
-  const response = await fetch('https://la-pizza-di-floflo.vercel.app/api/pizzas', {
+  const response = await fetch('https://la-pizza-di-floflo.vercel.app/api/pizzas'/*https://la-pizza-di-floflo.vercel.app/api/pizzas    http://localhost:3000/api/pizzas  */, {
     method: 'GET',
   });
   return response.json();
@@ -50,7 +50,16 @@ export default function Home() {
         <section className='grid grid-cols-6 w-full max-w-[1200px] lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-1 gap-y-[120px] place-content-center place-items-center'>
           {data && data.length > 0 ? (
             data.map((pizza) => (
-              <div key={pizza.id} className={`relative rounded-xl bg-gray-700 p-4 flex flex-col w-[180px] h-[300px] self-center ${pizza.base === "Tomate" ? "border border-red-500" : "border-white"}`}>
+              <div 
+                key={pizza.id} 
+                className={`relative rounded-xl bg-gray-700 p-4 flex flex-col w-[180px] h-[300px] self-center 
+                            ${pizza.base === "Tomate" ? "border-2 border-red-500" : ""} 
+                            ${pizza.base === "Crème fraiche" ? "border-2 border-white" : ""} 
+                            ${pizza.base === "Crème fraiche et curry" ? "border-2 border-y-white border-x-yellow-500" : ""} 
+                            ${pizza.base === "Crème fraiche et boursin" ? "border-2 border-y-white border-x-green-500" : ""} 
+                            ${pizza.base === "Crème fraiche et sauce BBQ" ? "border-2 border-y-white border-x-red-500" : ""}
+                          `}
+                >
                 <h2 className="text-2xl self-center underline">{pizza.name}</h2>
                 <p>{`Base: ${pizza.base}`}</p>
                 <ul className='flex w-full flex-col'>

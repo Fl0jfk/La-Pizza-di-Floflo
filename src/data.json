@@ -136,7 +136,7 @@
                 },
                 {
                     "id":3,
-                    "component": "Oignon"
+                    "component": "Oignons"
                 },
                 {
                     "id":4,
@@ -210,6 +210,430 @@
                 {
                     "id":6,
                     "component": "Origan"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Gourmande",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Tomate",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Jambon"
+                },
+                {
+                    "id":3,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":4,
+                    "component": "Merguez"
+                },
+                {
+                    "id":5,
+                    "component": "Poulet"
+                },
+                {
+                    "id":6,
+                    "component": "Origan"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Campagnarde",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Poulet"
+                },
+                {
+                    "id":4,
+                    "component": "Camenbert"
+                },
+                {
+                    "id":5,
+                    "component": "Oignons"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Tartiflette",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon fumé"
+                },
+                {
+                    "id":4,
+                    "component": "Reblochon"
+                },
+                {
+                    "id":5,
+                    "component": "Oignons"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Fromagère",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Chèvre"
+                },
+                {
+                    "id":3,
+                    "component": "Camenbert"
+                },
+                {
+                    "id":4,
+                    "component": "Croute fourée au fromage"
+                },
+                {
+                    "id":5,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Normande",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Jambon"
+                },
+                {
+                    "id":3,
+                    "component": "Champignons"
+                },
+                {
+                    "id":4,
+                    "component": "Camenbert"
+                },
+                {
+                    "id":5,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Paysanne",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Lardons"
+                },
+                {
+                    "id":4,
+                    "component": "Oignons"
+                },
+                {
+                    "id":5,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Barbecue",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche et sauce BBQ",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":3,
+                    "component": "Poivrons"
+                },
+                {
+                    "id":4,
+                    "component": "Oignons"
+                },
+                {
+                    "id":5,
+                    "component": "Origan"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Lorraine",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":3,
+                    "component": "Chèvre"
+                },
+                {
+                    "id":4,
+                    "component": "Bleu"
+                },
+                {
+                    "id":5,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Curryeuse",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche et curry",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Poulet"
+                },
+                {
+                    "id":3,
+                    "component": "Poivrons"
+                },
+                {
+                    "id":4,
+                    "component": "Champignons"
+                },
+                {
+                    "id":5,
+                    "component": "Oignons"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Norvegienne",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Saumon fumé"
+                },
+                {
+                    "id":3,
+                    "component": "Citron"
+                },
+                {
+                    "id":4,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Extrême",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":4,
+                    "component": "Chèvre"
+                },
+                {
+                    "id":5,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Boursin",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche et boursin",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Boursin"
+                },
+                {
+                    "id":3,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":4,
+                    "component": "Lardons"
+                },
+                {
+                    "id":5,
+                    "component": "Oignons"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Ch'ti",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Lardons"
+                },
+                {
+                    "id":4,
+                    "component": "Maroille"
+                },
+                {
+                    "id":5,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Neufchatel",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Jambon"
+                },
+                {
+                    "id":3,
+                    "component": "Viande hachée"
+                },
+                {
+                    "id":4,
+                    "component": "Neufchatel"
+                },
+                {
+                    "id":5,
+                    "component": "Oeuf"
+                },
+                {
+                    "id":6,
+                    "component": "Persillade"
                 }
             ]
         }
