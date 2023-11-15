@@ -338,7 +338,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Normande",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -366,7 +366,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 14,
             "name": "Paysanne",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -394,7 +394,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 15,
             "name": "Barbecue",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche et sauce BBQ",
@@ -422,7 +422,7 @@
             ]
         },
         {
-            "id": 13,
+            "id": 16,
             "name": "Lorraine",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -454,7 +454,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": 17,
             "name": "Curryeuse",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche et curry",
@@ -486,7 +486,7 @@
             ]
         },
         {
-            "id": 15,
+            "id": 18,
             "name": "Norvegienne",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -510,7 +510,7 @@
             ]
         },
         {
-            "id": 15,
+            "id": 19,
             "name": "Extrême",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -542,7 +542,7 @@
             ]
         },
         {
-            "id": 16,
+            "id": 20,
             "name": "Boursin",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche et boursin",
@@ -574,7 +574,7 @@
             ]
         },
         {
-            "id": 16,
+            "id": 21,
             "name": "Ch'ti",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",
@@ -606,7 +606,7 @@
             ]
         },
         {
-            "id": 17,
+            "id": 22,
             "name": "Neufchatel",
             "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
             "base": "Crème fraiche",

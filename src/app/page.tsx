@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import FilterButton from './components/buttons/FilterButton';
 
 interface Pizza {
   id: number;
@@ -22,7 +23,14 @@ export default function Home() {
   const [data, setData] = useState<Pizza[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-
+  const [selectedBase, setSelectedBase] = useState("All");
+    const filterPizzasByBase = () => {
+        if (selectedBase === "All") {
+            return data;
+        } else {
+            return data.filter((pizza) => pizza.base === selectedBase);
+        }
+    };
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -35,13 +43,12 @@ export default function Home() {
         setLoading(false);
       }
     };
-
     fetchData();
-  }, []);
-
+  }, [selectedBase]);
   return (
     <main className="flex flex-col items-center p-4 gap-12 w-full">
       <h1 className='text-6xl'>La Pizza di Floflo</h1>
+      <FilterButton onChange={(e) => setSelectedBase(e.target.value)} selectedBase={selectedBase}/>
       {loading ? (
         <p>Loading...</p>
       ) : error ? (
@@ -49,9 +56,9 @@ export default function Home() {
       ) : (
         <section className='grid grid-cols-6 w-full max-w-[1200px] lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-1 gap-y-[120px] place-content-center place-items-center'>
           {data && data.length > 0 ? (
-            data.map((pizza) => (
+            filterPizzasByBase().map((pizza) => (
               <div 
-                key={pizza.id} 
+                key={`${pizza.id}-${pizza.name}`} 
                 className={`relative rounded-xl bg-gray-700 p-4 flex flex-col w-[180px] h-[300px] self-center 
                             ${pizza.base === "Tomate" ? "border-2 border-red-500" : ""} 
                             ${pizza.base === "Crème fraiche" ? "border-2 border-white" : ""} 
