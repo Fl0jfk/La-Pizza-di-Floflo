@@ -1,0 +1,172 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Tartiflette",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                },
+                {
+                    "id":4,
+                    "component": "Reblochon"
+                },
+                {
+                    "id":5,
+                    "component": "Persillade"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Margarita",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "3 Fromages",
+            "image":"https://lapizzadifloflo.s3.eu-west-3.amazonaws.com/images/IMG_6383.png",
+            "base": "Crème Fraiche",
+            "components": [
+                {
+                    "id":1,
+                    "component": "Mozzarella"
+                },
+                {
+                    "id":2,
+                    "component": "Pommes de terre"
+                },
+                {
+                    "id":3,
+                    "component": "Jambon Fumé"
+                }
+            ]
+        }
+    ]
+}
